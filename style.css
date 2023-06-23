@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+ 
+}
+
+
+h1 {
+    background-color: rgba(46, 45, 104, 0.7);
+    box-shadow: 3px 3px 5px  rgb(139, 139, 158);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: #36395A;
+    display: flex;
+    justify-content: center; 
+    font-family: IndieFlower;
+    width: 500px; 
+}
+
+
+.done {
+    text-decoration: line-through;
+    text-decoration-color: rgb(187, 55, 55);
+    text-decoration-thickness: 2px;
+     
+  }
+
+
+  p {
+      background-color: aquamarine;
+  }
+
+  
+  body {
+    background-image: url(High_resolution_wallpaper_backgr.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+@media  screen and (max-width: 500px) {
+  body {
+    background-size: contain;
+  }
+}
+
+ol {
+  border-style: outset;
+  border-color: cadetblue;
+  border-width: 5px;
+  border-radius: 15px;
+  margin-top: -10px;
+  padding-top: 30px  ;
+  padding-left: 30px ;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  background-color: rgba(18, 23, 87, 0.7);
+}
+  
+
+li {
+    border-style: outset;
+    border-width: 4px;
+    border-color: #10111079;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px;
+    padding: 2px;
+    width: 400px;
+    margin: 7px;
+    background-color: #f7fffefa;
+    text-align: center;
+    font-family: IndieFlower;
+    font-weight:bolder;
+  
+    
+}
+
+  
+  li:hover {
+    transform: translateY(-2px);
+  }
+
+
+.list-item {
+     display: flex;
+    flex-direction: row; 
+    flex-basis: 33%; 
+  
+  }
+
+  
+  .delete-button {
+    background-color: rgb(168, 57, 57);
+    width: 50px;
+    height: 30px;
+    margin: 10px; 
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1px;
+  }
+
+
+  @font-face {
+    font-family: 'IndieFlower';
+    src: url(IndieFlower-Regular.ttf);
+  }
+
+  @font-face {
+     font-family: 'KaushanScript';
+     src: url(KaushanScript-Regular.ttf);;
+  }
+
+  
+  
+  
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
