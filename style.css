@@ -36,7 +36,7 @@ h1 {
 
   
   body {
-    background-image: url(High_resolution_wallpaper_backgr.jpg);
+    background-image: url(/background-image/High_resolution_wallpaper_backgr.jpg);
     background-position: center; 
     background-repeat: no-repeat;
 }
@@ -106,14 +106,10 @@ li {
 
   @font-face {
     font-family: 'IndieFlower';
-    src: url(IndieFlower-Regular.ttf);
+    src: url(fonts/IndieFlower-Regular.ttf);
   }
 
-  @font-face {
-     font-family: 'KaushanScript';
-     src: url(KaushanScript-Regular.ttf);;
-  }
-
+  
   
   
   
