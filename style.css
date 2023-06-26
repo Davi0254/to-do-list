@@ -53,11 +53,12 @@ ol {
   border-width: 5px;
   border-radius: 15px;
   margin-top: -10px;
-  padding-top: 30px  ;
-  padding-left: 30px ;
-  padding-right: 20px;
-  padding-bottom: 50px;
+  padding-top: 25px  ;
+  padding-left: 20px ;
+  padding-right: 10px;
+  padding-bottom: 30px; 
   background-color: rgba(18, 23, 87, 0.7);
+ 
 }
   
 
@@ -74,23 +75,22 @@ li {
     text-align: center;
     font-family: IndieFlower;
     font-weight:bolder;
-  
-    
+   
 }
 
-  
-  li:hover {
-    transform: translateY(-2px);
-  }
-
-
 .list-item {
-     display: flex;
-    flex-direction: row; 
-    flex-basis: 33%; 
+  display: flex;
+  flex-direction: row; 
   
   }
 
+li:hover {
+  transform: scale(1.02);
+}
+
+.delete-button:hover {
+  transform: scale(1.05);
+}
   
   .delete-button {
     background-color: rgb(168, 57, 57);
@@ -109,7 +109,6 @@ li {
     src: url(fonts/IndieFlower-Regular.ttf);
   }
 
-  
   
   
   
