@@ -23,7 +23,7 @@ button.addEventListener("click", function() {
         
         const deleteButton = document.createElement("button");
         deleteButton.classList.add("delete-button");
-        deleteButton.appendChild(document.createTextNode("delete"))
+        deleteButton.appendChild(document.createTextNode("remove"))
 
        div.appendChild(li);
        div.appendChild(deleteButton);
@@ -35,7 +35,6 @@ function handleDelete(event) {
     const listItem = event.target.parentNode;
     listItem.parentNode.removeChild(listItem);
 }
-
 
 ol.addEventListener("click", function(event) {
     if (event.target.tagName === "li") {
