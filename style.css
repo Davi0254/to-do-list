@@ -7,6 +7,12 @@
  
 }
 
+@media (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 
 h1 {
     background-color: rgba(46, 45, 104, 0.7);
